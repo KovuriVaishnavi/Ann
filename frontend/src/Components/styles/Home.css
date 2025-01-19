@@ -10,7 +10,9 @@
     background-color: #f8f9fa;
     position: relative;
 }
-
+h1{
+    color:#28a745 !important
+}
 .hero-content {
     max-width: 50%;
 }

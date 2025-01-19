@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
 import axios from "axios";
-
+import { useEffect, useState } from "react";
+import "./styles/Receiver.css";
 export const Receiver = () => {
   const [donations, setDonations] = useState([]);
   const [volunteerStatus, setVolunteerStatus] = useState({});
@@ -262,6 +262,7 @@ export const Receiver = () => {
               borderRadius: "5px",
               cursor: "pointer",
             }}
+            className="btn btn-success"
           >
             Submit
           </button>

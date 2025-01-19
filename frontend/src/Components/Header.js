@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import ProfileCardModal from "./ProfileCard";
 import "./styles/Header.css";
-
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
@@ -90,7 +89,7 @@ const Header = () => {
                 </li>
               )}
               <li>
-                <Link to="/contactus">Contact</Link>
+                <Link to="#Footer">Contact</Link>
               </li>
               <li>
                 <Link to="/login">Login</Link>
